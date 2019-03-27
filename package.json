@@ -1,0 +1,32 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "simple chatApp in nodeJS with webSockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lv211184pmi/node-chat.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "WebSockets"
+  ],
+  "author": "Mykhailo Panas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lv211184pmi/node-chat/issues"
+  },
+  "homepage": "https://github.com/lv211184pmi/node-chat#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
